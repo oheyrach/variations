@@ -1,0 +1,111 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+* {
+  margin: 0px;
+  padding: 5px;
+}
+p{
+  font-size: small;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(253, 255, 154);
+}
+
+div{
+font-size: small;
+color: rgb(47, 160, 56);
+padding-bottom: 30px;
+}
+
+.fifth{
+  color: rgb(255, 155, 73);
+}
+
+.strawberry{
+  color:rgb(255, 134, 134);
+}
+
+.blue{
+  color: rgb(78, 104, 252);
+  padding-top: 5px;
+}
+
+h1{
+margin-top: 50px;
+margin-bottom: 20px;
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 25px;
+}
+
+
+body {
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  line-height: 2;
+  height: 100%;
+  background-color: rgb(146, 221, 255);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.one {
+  position:relative;
+  display: block;
+  color: #7700ff;
+}
+
+.one:hover {
+  cursor: pointer;
+  background-color: rgba(253, 255, 154, 0.726);
+}
+
+.two {
+  position:relative;
+  display: block;
+  color: #ea00ff;
+}
+
+.two:hover {
+  cursor: pointer;
+  background-color: rgba(128, 255, 177, 0.726);
+}
+
+.three{
+  position:relative;
+  display: block;
+  color: #ff9900;
+}
+
+.three:hover {
+  cursor: pointer;
+  background-color: rgba(78, 104, 252, 0.726);
+}
+
+.four{
+  position:relative;
+  display: block;
+  color: #05ac0e;
+}
+
+.four:hover{
+  cursor: pointer;
+  background-color: rgba(255, 134, 134, 0.726);
+}
+
+.five{
+  position:relative;
+  display: block;
+  color: #ffe926;
+}
+
+.five:hover{
+  cursor: pointer;
+  background-color: rgba(255, 155, 73, 0.726);
+}
+
+.main {
+color: #ffffff;
+padding-bottom: 50px;
+}
+

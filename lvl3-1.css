@@ -1,0 +1,52 @@
+
+body {
+	background-color: #000000;
+	color: #000;
+    margin: 0;
+}
+
+h3{
+	color: #ffffff;
+	padding-left: 40px;
+}
+
+p {
+	margin-bottom: 24px;
+	color: #ffffff;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#poem {
+	color: #ffffff;
+	margin: 50px auto;
+	margin-top: 150px;
+	position: relative;
+	width: 450px;
+}
+
+#poem .circle {
+	background-color: rgb(255, 255, 255);
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	display: block;
+	height: 100px;
+	left: -136px;
+	line-height: 160px;
+	position: absolute;
+	width: 100px;
+}
+
+
+#poem blockquote cite {
+	padding-left: 40px;
+}
+
+
+#poem .rectangle {
+	border-left: 5px solid rgb(255, 255, 255);
+	padding-left: 36px;
+}

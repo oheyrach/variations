@@ -1,0 +1,42 @@
+
+    html, body
+    {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .table-fixed {
+      table-layout: fixed;
+    }
+
+
+    #main {
+    	height: 100%;	    	
+    }
+
+    #main td .dark-bg{
+    font-family: 'Poppins', sans-serif;
+    }
+
+    #main td .white-bg{
+      
+      font-family: 'Poppins', sans-serif;
+      }
+
+    .dark-bg {
+    	background: #000000;
+    	color: #fff; 
+    }
+
+    .half-width {
+    	width: 50%;
+    }
+
+    .half-width.opened {
+    	width: 80%;	
+    }
+
+   p{
+     text-align: right;
+   }

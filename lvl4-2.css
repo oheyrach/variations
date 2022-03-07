@@ -1,0 +1,23 @@
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div{
+    text-align: center;
+    margin-top: 200px;
+}
+
+body{
+background-color: rgb(184, 35, 35);
+color: white;
+}

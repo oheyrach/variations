@@ -1,0 +1,36 @@
+body {
+	background-color: #000000;
+	color: #000;
+    margin: 0;
+}
+
+h3{
+	color: #ffffff;
+	padding-left: 0px;
+}
+
+p {
+	margin-bottom: 24px;
+	color: #ffffff;
+	padding-left: 100px;
+	padding-right: 200px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#poem {
+	color: #ffffff;
+	margin: 50px auto;
+	margin-top: 150px;
+	position: relative;
+	width: 1050px;
+	
+}
+
+
+#poem blockquote cite {
+	padding-left: 0px;
+}

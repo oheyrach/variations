@@ -1,0 +1,62 @@
+body { 
+    margin: 0; 
+    background-color: #eaec7a;
+
+  }
+  
+  .animation-title {
+    color: rgb(238, 131, 131);
+    font-size: 3.82rem;
+    font-weight: 700;
+    margin:0 0 0.5rem 0;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    font-family: -apple-system,
+                 'avenir next', avenir,
+                 roboto, noto,
+                 'helvetica neue', helvetica,
+                 ubuntu,
+                 'franklin gothic medium', 'century gothic',
+                 sans-serif;
+  }
+  
+  .wave {
+    animation: moveTheWave 2400ms linear infinite;
+    stroke-dasharray: 0 16 101 16;
+  }
+  
+  @keyframes moveTheWave {
+  
+    0% {
+      stroke-dashoffset: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  
+    100% {
+      stroke-dashoffset: -133;
+      transform: translate3d(-90px, 0, 0);
+    }
+  
+  }
+
+  p{
+    color: rgb(238, 131, 131);
+  }
+
+  div{
+    color: rgb(238, 131, 131);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin:0 0 0.5rem 0;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    font-family: -apple-system,
+                 'avenir next', avenir,
+                 roboto, noto,
+                 'helvetica neue', helvetica,
+                 ubuntu,
+                 'franklin gothic medium', 'century gothic',
+                 sans-serif;
+    padding-left: 650px;
+  }
+  

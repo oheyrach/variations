@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Serif Display", sans-serif;
+    text-align: center;
+  }
+  
+  blockquote {
+    width: 120%;
+    font-weight: bold;
+    font-size: 250%;
+    margin-left: -20%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    word-break: keep-all;
+    border-left: 10px solid white;
+    border-bottom: 3px solid whitesmoke;
+  }
+  
+  blockquote::before {
+    content: "\201C";
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+    position: absolute;
+    transform: translate(-150%,-50%)
+  }
+  
+  blockquote::after {
+    content: "\201D";
+    color: rgb(255, 255, 255);
+    font-size: 600%;
+    position: absolute;
+    transform: translate(75%,5%)
+  }
+  
+  small {
+    color: rgb(255, 255, 255);
+    font-size: 95%;
+    padding-left: 100px;
+  }
+  
+  
